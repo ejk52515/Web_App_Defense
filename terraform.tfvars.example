@@ -1,0 +1,11 @@
+# Copy this file to terraform.tfvars and fill in your own values.
+#   cp terraform.tfvars.example terraform.tfvars   (Linux/macOS)
+#   Copy-Item terraform.tfvars.example terraform.tfvars   (PowerShell)
+#
+# terraform.tfvars is gitignored — never commit real values.
+
+subscription_id = "00000000-0000-0000-0000-000000000000"  # your Azure subscription GUID
+yourname        = "yourname"                                # lowercase suffix for resource names
+location        = "eastus"                                  # Azure region
+admin_password  = "ChangeMe-Use-A-Strong-Password!"         # 12-72 chars, 3 of 4 char classes
+my_ip           = "203.0.113.10"                            # your public IP (curl.exe -s ifconfig.me)
