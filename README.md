@@ -1,4 +1,4 @@
-# Lab 3 — Web Application Security: Azure Application Gateway WAF
+# Web Application Security: Azure Application Gateway WAF
 
 Deploy a deliberately vulnerable web application (DVWA) behind an Azure Application Gateway with the **Web Application Firewall (WAF_v2)**, run real OWASP-class attacks against it, tune a false positive, enforce blocking, write a custom rule, and analyze the results with KQL.
 
